@@ -1,0 +1,24 @@
+{
+  "name": "massmail",
+  "version": "1.0.0",
+  "description": "mass email to help in marketing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snehitsharma/mailservice.git"
+  },
+  "author": "self",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/snehitsharma/mailservice/issues"
+  },
+  "homepage": "https://github.com/snehitsharma/mailservice#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "multer": "^1.4.5-lts.1"
+  }
+}
