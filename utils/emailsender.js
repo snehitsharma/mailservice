@@ -10,7 +10,7 @@ const sendEmail = (toEmail, subject, textContent) => {
         .request({
             "Messages":[{
                 "From": {
-                    "Email": "sayitsnehit@gmail.com", // Replace with your Mailjet verified sender email
+                    "Email": "your email", // Replace with your Mailjet verified sender email
                     "Name": "tester" // Replace with your name or sender name
                 },
                 "To": [{

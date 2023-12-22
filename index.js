@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const multer = require('multer');
 const fs = require('fs');
 const XLSX = require('xlsx');
-const { sendEmail } = require('./utils/emailSender');
+const { sendEmail } = require('./utils/emailSender.js');
 
 const app = express();  
 const port = 3000;
